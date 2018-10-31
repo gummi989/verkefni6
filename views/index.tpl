@@ -4,7 +4,7 @@
     <figure class="product" id="{{product['name'].lower()}}">
         <figcaption>{{product["name"]}}</figcaption>
         <img src="/static/img/{{product['img']}}">
-        <span class="verð">&isk;{{product["price"]}}</span>
+        <span class="verð">isk{{product["price"]}}</span>
     </figure>
     % end
 </section>
