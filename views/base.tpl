@@ -13,8 +13,5 @@
     </header>
     <h2>{{title or "Untitled"}}</h2>
     {{!base}}
-    <footer>
-        <small>&copy; 2018 Reynir Aron Magnússon</small>
-    </footer>
 </body>
 </html>
