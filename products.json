@@ -1,0 +1,40 @@
+{
+    "product": [
+        {
+            "id":    0,
+            "name":  "Jacket",
+            "img":   "jacket.jpg",
+            "price": 250
+        },
+        {
+            "id":    1,
+            "name":  "Sweater",
+            "img":   "sweater.jpg",
+            "price": 150
+        },
+        {
+            "id":    2,
+            "name":  "Dress",
+            "img":   "dress.jpg",
+            "price": 300
+        },
+        {
+            "id":    3,
+            "name":  "Underwear",
+            "img":   "underwear.jpg",
+            "price": 50
+        },
+        {
+            "id":    4,
+            "name":  "Onesie",
+            "img":   "onesie.jpg",
+            "price": 300
+        },
+        {
+            "id":    5,
+            "name":  "Tuxedo",
+            "img":   "tux.jpg",
+            "price": 400
+        }
+    ]
+}
