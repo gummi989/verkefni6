@@ -37,7 +37,7 @@
 
         product = products.get(pid)
 
-        if product is not None:  # If no product with the specified ID is found, don't show it
+        if product is not None:  
 
             total_price += product["price"]
 
@@ -61,7 +61,7 @@
 
         <td class="price">
 
-            &euro;{{product["price"]}}
+            &ISK;{{product["price"]}}
 
         </td>
 
@@ -73,7 +73,7 @@
 
         <td class="remove">
 
-            <a href="/cart/remove?pid={{pid}}">Remove</a>
+            <a href="/cart/remove?pid={{pid}}">Eyða</a>
 
         </td>
 
@@ -89,7 +89,7 @@
 
         <tr>
 
-            <th colspan="2">Total</th>
+            <th colspan="2">Samtals</th>
 
             <td>&euro;{{total_price}}</td>
 
@@ -97,7 +97,7 @@
 
             <td>
 
-                <a href="/cart/empty">Empty cart</a>
+                <a href="/cart/empty">Tæma körfu</a>
 
             </td>
 
