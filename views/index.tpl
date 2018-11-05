@@ -12,7 +12,7 @@
 
             <img src="/static/img/{{product['img']}}">
 
-            <span class="price">&ISK;{{product["price"]}}</span>
+            <span class="price">&Krónur;{{product["price"]}}</span>
 
         </figure>
 
