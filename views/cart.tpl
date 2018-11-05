@@ -91,7 +91,7 @@
 
             <th colspan="2">Samtals</th>
 
-            <td>&euro;{{total_price}}</td>
+            <td>ISK{{total_price}}</td>
 
             <td>{{total_qty}}</td>
 
