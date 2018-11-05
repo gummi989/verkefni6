@@ -31,3 +31,4 @@
         <img src="/static/img/cart.svg" alt="Cart">
 
     </a>
+</nav>
