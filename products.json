@@ -2,38 +2,38 @@
     "product": [
         {
             "id":    0,
-            "name":  "Jacket",
-            "img":   "jacket.jpg",
+            "name":  "Jakki",
+            "img":   "jakki.jpg",
             "price": 5000
         },
         {
             "id":    1,
-            "name":  "Sweater",
-            "img":   "sweater.jpg",
+            "name":  "kjóll",
+            "img":   "kjóll.jpg",
             "price": 2500
         },
         {
             "id":    2,
-            "name":  "Dress",
-            "img":   "dress.jpg",
+            "name":  "Náttöt",
+            "img":   "náttföt.jpg",
             "price": 3300
         },
         {
             "id":    3,
-            "name":  "Underwear",
-            "img":   "underwear.jpg",
+            "name":  "nærbuxur",
+            "img":   "nærbuxur.jpg",
             "price": 1000
         },
         {
             "id":    4,
-            "name":  "Onesie",
-            "img":   "onesie.jpg",
+            "name":  "peysur",
+            "img":   "peysur.jpg",
             "price": 10000
         },
         {
             "id":    5,
-            "name":  "Tuxedo",
-            "img":   "tux.jpg",
+            "name":  "úlpa",
+            "img":   "úlpa.jpg",
             "price": 9500
         }
     ]
