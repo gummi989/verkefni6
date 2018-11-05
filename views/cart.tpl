@@ -1,7 +1,7 @@
 
 % import itertools
 
-% rebase("base.tpl", title="Cart")
+% rebase("base.tpl", title="Karfa")
 
 <table class="table table-hover products-in-cart">
 
