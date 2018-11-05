@@ -1,4 +1,4 @@
-% rebase("base.tpl", title="Store")
+% rebase("base.tpl", title="Fatabúð")
 
 <section class="products-view">
 
