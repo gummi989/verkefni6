@@ -12,7 +12,7 @@ import json
 
 
 
-# Create cart if it does not exist
+
 
 def create_cart(session):
 
@@ -58,7 +58,7 @@ def index():
 
     s = bottle.request.environ.get("beaker.session")
 
-    create_cart(s)  # Create cart if it does not exist
+    create_cart(s)  
 
     return bottle.template("index", products=products, cart=s.get("cart"))
 
@@ -96,13 +96,11 @@ def add_to_cart():
 
         pid = None
 
-    # product = next((p for p in products if p["id"] == pid), None)
 
-    # If product exists, add it to cart
 
     if products.get(pid) is not None:
 
-        create_cart(s)  # If cart does not exist, create it
+        create_cart(s)  
 
         s["cart"].append(pid)
 
@@ -132,7 +130,7 @@ def remove_from_cart():
 
     if pid is not None:
 
-        create_cart(s)  # If cart does not exist, create it
+        create_cart(s)  
 
         s["cart"] = [p for p in s.get("cart") if p != pid]
 
