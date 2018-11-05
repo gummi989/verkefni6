@@ -9,15 +9,13 @@
 
         <tr>
 
-            <th>Image</th>
+            <th>Nafn</th>
 
-            <th>Name</th>
+            <th>Verð</th>
 
-            <th>Price</th>
+            <th>Magn</th>
 
-            <th>Quantity</th>
-
-            <th>Remove</th>
+            <th>Tæma körfu</th>
 
         </tr>
 
