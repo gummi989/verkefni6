@@ -1,3 +1,4 @@
+
 % import itertools
 
 % rebase("base.tpl", title="Cart")
@@ -8,15 +9,15 @@
 
         <tr>
 
-            <th>myndir</th>
+            <th>Image</th>
 
-            <th>Nafn</th>
+            <th>Name</th>
 
-            <th>Verð</th>
+            <th>Price</th>
 
-            <th>Magn</th>
+            <th>Quantity</th>
 
-            <th>Eyða</th>
+            <th>Remove</th>
 
         </tr>
 
@@ -26,9 +27,9 @@
 
     <%
 
-    karfa = sorted(karfa)
+    cart = sorted(cart)
 
-    karfa = [(key, sum(1 for _ in group)) for key, group in itertools.groupby(karfa)]
+    cart = [(key, sum(1 for _ in group)) for key, group in itertools.groupby(cart)]
 
     total_price = 0
 
