@@ -61,7 +61,7 @@
 
         <td class="price">
 
-            &ISK;{{product["price"]}}
+            ISK{{product["price"]}}
 
         </td>
 
